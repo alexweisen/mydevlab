@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/alexweisen/mydevlab.git
     targetRevision: HEAD
-    path: mydevlab/k8s-proj/les-01-argocd
+    path: k8s-proj/les-01-argocd/dev
   destination: 
     server: https://kubernetes.default.svc
     namespace: lesson-01
